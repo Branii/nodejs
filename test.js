@@ -1,6 +1,22 @@
 
-const greet = () => {
-    return 'Hello World!';
-}
+//readfile
+// const fs = require('fs');
+// fs.readFile("./file/file.txt",(err, data)=>{
+//     (err) ? console.log(err) : console.log(data.toString())
+// })
 
-console.log(greet());
+//writefile
+//  const fs = require('fs');
+// fs.writeFile("./file/file.txt","Hello World",(err)=>{
+//     (err) ? console.log(err) : console.log("Success")
+// })
+
+// const fs = require('fs');
+// fs.appendFile("./file/file.txt","\ni just want to append this to this file",(err)=>{
+//     (err) ? console.log(err) : console.log("Success")
+// })
+
+//  const fs = require('fs');
+//  fs.mkdir("./file/dara",(err)=>{
+//     (err) ? console.log(err) : console.log("Success")
+//  })
